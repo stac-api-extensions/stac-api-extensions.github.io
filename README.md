@@ -2,7 +2,6 @@
 
 - [STAC API Extensions](#stac-api-extensions)
   - [List of STAC API Extensions](#list-of-stac-api-extensions)
-    - [Alphabetical list](#alphabetical-list)
     - [Grouped by maturity](#grouped-by-maturity)
       - [Stable](#stable)
       - [Candidate](#candidate)
@@ -10,6 +9,7 @@
       - [Proposal](#proposal)
       - [WIP](#wip)
       - [Deprecated](#deprecated)
+    - [Alphabetical](#alphabetical)
 
 The [stac-api-extensions](https://github.com/stac-api-extensions/) GitHub organization is a home for extensions to the
 [SpatioTemporal Asset Catalog API foundation specifications](https://github.com/radiantearth/stac-api-spec).
@@ -90,7 +90,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [transaction](https://github.com/stac-api-extensions/transaction) | *Unknown* | Candidate | 1.0.0-rc.2 | Transaction Extension |
 | [version](https://github.com/stac-api-extensions/version) | *Unknown* | *WIP* | **Unreleased** | Item and Collection Version Extension |
 
-* **Last updated:** Jan 27 2023, 17:36 
+* **Last updated:** Jan 27 2023, 17:38 
 * **Count:** 13
 
 You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-api-extensions/stac-api-extensions.github.io/edit/main/python/config.py)
