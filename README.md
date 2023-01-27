@@ -38,6 +38,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Children](https://github.com/stac-api-extensions/children) | STAC API - Core | Proposal | 1.0.0-rc.2 | Children Extension |
 | [Context](https://github.com/stac-api-extensions/context) | STAC API - Features, STAC API - Item Search | Deprecated | 1.0.0-rc.2 | Context Extension |
 | [Items and Collections API Version](https://github.com/stac-api-extensions/version) | STAC API - Features | *WIP* | **Unreleased** | Item and Collection Version Extension |
+| [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.2 | Transaction Extension |
 | [collection-search](https://github.com/stac-api-extensions/collection-search) | *Unknown* | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
 | [fields](https://github.com/stac-api-extensions/fields) | *Unknown* | *Unknown* | 1.0.0-rc.2 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
 | [filter](https://github.com/stac-api-extensions/filter) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Filter Extension |
@@ -46,7 +47,6 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [sort](https://github.com/stac-api-extensions/sort) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Sort Extension |
 | [stac-context-collections](https://github.com/cedadev/stac-context-collections)* | *Unknown* | *WIP* | **Unreleased** | None |
 | [stac-freetext-search](https://github.com/cedadev/stac-freetext-search)* | *Unknown* | *Unknown* | 0.1.0 | None |
-| [transaction](https://github.com/stac-api-extensions/transaction) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Transaction Extension |
 
 ### Grouped by maturity
 
@@ -55,6 +55,8 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 
 #### Candidate
+
+* [Transaction](https://github.com/stac-api-extensions/transaction)
 
 
 #### Pilot
@@ -84,7 +86,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 
 
-* **Last updated:** Jan 27 2023, 19:48 
+* **Last updated:** Jan 27 2023, 19:56 
 * **Count:** 13
 
 You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-api-extensions/stac-api-extensions.github.io/edit/main/python/config.py)
