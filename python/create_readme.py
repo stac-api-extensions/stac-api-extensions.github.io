@@ -39,7 +39,7 @@ def get_sources() -> list:
 
   try:
     logger.info(f"Reading list of repositories")
-    with requests.get("https://api.github.com/users/stac-extensions/repos?per_page=1000", headers=headers) as site:
+    with requests.get("https://api.github.com/users/stac-api-extensions/repos?per_page=1000", headers=headers) as site:
       repos = site.json()
       for repo in repos:
         if not isinstance(repo, dict):
@@ -49,7 +49,7 @@ def get_sources() -> list:
           continue
         data.append(from_gh(repo, False))
   except error as e:
-      logger.error(f"stac-extensions not available: {e}")
+      logger.error(f"stac-api-extensions not available: {e}")
 
   for r in config.COMMUNITY_REPOS:
     try:
@@ -159,7 +159,7 @@ def main() -> bool:
   count = len(data)
 
   if count < 45:
-    logger.error("Something likely went wrong as there are not enough repos listed, don't overrride README")
+    logger.error("Something likely went wrong as there are not enough repos listed, don't override README")
     sys.exit(1)
   
   now = datetime.utcnow().strftime("%b %d %Y, %H:%M %Z")

@@ -1,28 +1,31 @@
-# STAC Extensions
+# STAC API Extensions
 
-The [stac-extensions](https://github.com/stac-extensions/) GitHub organization is a home for extensions to the
-[SpatioTemporal Asset Catalog](https://github.com/radiantearth/stac-spec) specification.
+- [STAC API Extensions](#stac-api-extensions)
+  - [List of STAC API Extensions](#list-of-stac-api-extensions)
+    - [Alphabetical list](#alphabetical-list)
 
-To learn about STAC and Extensions start with the [extensions](https://github.com/radiantearth/stac-spec/tree/master/extensions)
-section of the core specification. It explains how extensions work, lists all the known extensions, and has
-instructions for how to go about '[extending STAC](https://github.com/radiantearth/stac-spec/blob/master/extensions/README.md#extending-stac)'.
+The [stac-api-extensions](https://github.com/stac-api-extensions/) GitHub organization is a home for extensions to the
+[SpatioTemporal Asset Catalog API foundation specifications](https://github.com/radiantearth/stac-api-spec).
 
-The [stac-extensions](https://github.com/stac-extensions/) GitHub organization is a home for many of the leading 'community extensions',
+To learn about STAC API and Extensions, start with the [extensions](https://github.com/radiantearth/stac-api-spec/tree/main/extensions.md)
+section of the STAC API specifications. It explains how extensions work, lists all the known extensions, and has
+instructions for how to go about [creating new extensions](https://github.com/radiantearth/stac-api-spec/blob/main/extensions.md#creating-new-extensions)'.
+
+The [stac-api-extensions](https://github.com/stac-api-extensions/) GitHub organization is a home for many of the leading 'community extensions',
 providing a neutral home for collaboration. Many of these used to be in the core
-[stac-spec repository](https://github.com/radiantearth/stac-spec), but were removed for 1.0.0 so they could evolve at their
+[stac-api-spec repository](https://github.com/radiantearth/stac-api-spec), but were removed for 1.0.0 so they could evolve at their
 own pace, instead of having to follow the core STAC release cycle.
 
-## List of STAC Extensions
+## List of STAC API Extensions
 
 This is meant to be the definitive list of STAC Extensions, but not all of them may be part of this GitHub organization.
 
 An asterisk (*) indicates a community extension that is hosted externally.
-As such is not part of the stac-extensions GitHub organization and may not follow the normal procedure or classification for STAC extensions, e.g. regarding the maturity.
-
-Below you can also find a list of extensions grouped by [maturity](#grouped-by-maturity).
+As such is not part of the stac-api-extensions GitHub organization and may not follow the normal procedure or classification for STAC extensions, e.g. regarding the maturity.
 
 ### Alphabetical list
 
+<<<<<<< HEAD
 | Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-spec/tree/master/extensions#extension-maturity) | Version | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
 | [Accuracy](https://github.com/stac-extensions/accuracy) | accuracy | Collection, Item | *WIP* | **Unreleased** | Fields to provide estimates of accuracy, both geometric and measurement (e.g., radiometric) accuracy. |
@@ -237,3 +240,22 @@ and [propose new extensions](https://github.com/radiantearth/stac-spec/blob/mast
 
 You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-extensions/stac-extensions.github.io/edit/main/python/config.py)
 and creating a Pull Request for the change. All extensions hosted in the stac-extensions organization will be added automatically each night.
+=======
+| Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-api-spec/tree/main/extensions#extension-maturity) | Version | Description |
+| ----- | ----------------- | ----- | ------------------------------------------------------------------------------------------------- | ------- | ----------- |
+
+| Extension Name                                                                        | Scope                                                                             | Description                                                                                                                                  | Maturity   | Maintainers                                    |
+| ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ---------------------------------------------- |
+| [Fields](https://github.com/stac-api-extensions/fields/blob/main/README.md)           | [STAC API - Item Search](item-search/) and [STAC API - Features](ogcapi-features) | Adds parameter to control which fields are returned in the response.                                                                         | Candidate  | official                                       |
+| [Filter](https://github.com/stac-api-extensions/filter/blob/main/README.md)           | [STAC API - Item Search](item-search/) and [STAC API - Features](ogcapi-features) | Adds parameter to search Item properties.                                                                                                    | Pilot      | official                                       |
+| [Sort](https://github.com/stac-api-extensions/sort/blob/main/README.md)               | [STAC API - Item Search](item-search/) and [STAC API - Features](ogcapi-features) | Adds parameter to control sorting of results.                                                                                                | Candidate  | official                                       |
+| [Transaction](https://github.com/stac-api-extensions/transaction/blob/main/README.md) | [STAC API - Features](ogcapi-features)                                            | Adds POST, PUT, and DELETE endpoints for the creation, editing, and deleting of Item objects.                                                | Candidate  | official                                       |
+| [Query](https://github.com/stac-api-extensions/query/blob/main/README.md)             | [STAC API - Item Search](item-search/) and [STAC API - Features](ogcapi-features) | Adds parameter to search Item  properties.                                                                                                   | Candidate  | official                                       |
+| [Children](https://github.com/stac-api-extensions/children/blob/main/README.md)       | [STAC API - Core](core/)                                                          | Defines advertisement of the children (child catalogs or child collections) that a catalog contains.                                         | Proposal   | official                                       |
+| [Free-text Search](https://github.com/cedadev/stac-freetext-search)                   | [STAC API - Item Search](item-search/) request                                    | Adds `q` parameter and free-text search against item properties                                                                              | Pilot      | [CEDA, STFC, UKRI](https://github.com/cedadev) |
+| [Context Collections](https://github.com/cedadev/stac-context-collections)            | [STAC API - Item Search](item-search/) request                                    | Adds a `collections` keyword to the [context](https://github.com/radiantearth/stac-api-spec/tree/main/fragments/context) extension response. | Proposal   | [CEDA, STFC, UKRI](https://github.com/cedadev) |
+| [Context](https://github.com/stac-api-extensions/context/blob/main/README.md)         | [STAC API - Item Search](item-search/) and [STAC API - Features](ogcapi-features) | Adds search related metadata (context) to ItemCollection.                                                                                    | Deprecated | official                                       |
+
+You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-api-extensions/stac-api-extensions.github.io/edit/main/python/config.py)
+and creating a Pull Request for the change. All extensions hosted in the stac-api-extensions organization will be added automatically each night.
+>>>>>>> 3b64dd7 (update to stac-api references)
