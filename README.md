@@ -48,6 +48,9 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [stac-context-collections](https://github.com/cedadev/stac-context-collections)* | *Unknown* | *WIP* | **Unreleased** | None |
 | [stac-freetext-search](https://github.com/cedadev/stac-freetext-search)* | *Unknown* | *Unknown* | 0.1.0 | None |
 
+- **Last updated:** Jan 27 2023, 20:24 
+- **Count:** 13
+
 ### Grouped by maturity
 
 
@@ -56,46 +59,43 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 #### Candidate
 
-* [Fields](https://github.com/stac-api-extensions/fields)
+- [Fields](https://github.com/stac-api-extensions/fields)
 
-* [Query](https://github.com/stac-api-extensions/query)
+- [Query](https://github.com/stac-api-extensions/query)
 
-* [Sort](https://github.com/stac-api-extensions/sort)
+- [Sort](https://github.com/stac-api-extensions/sort)
 
-* [Transaction](https://github.com/stac-api-extensions/transaction)
+- [Transaction](https://github.com/stac-api-extensions/transaction)
 
 
 #### Pilot
 
-* [Filter](https://github.com/stac-api-extensions/filter)
+- [Filter](https://github.com/stac-api-extensions/filter)
 
 
 #### Proposal
 
-* [Aggregation](https://github.com/stac-api-extensions/aggregation)
+- [Aggregation](https://github.com/stac-api-extensions/aggregation)
 
-* [Children](https://github.com/stac-api-extensions/children)
+- [Children](https://github.com/stac-api-extensions/children)
 
 
 #### WIP
 
-* [Version](https://github.com/stac-api-extensions/version)
+- [Version](https://github.com/stac-api-extensions/version)
 
-* [collection-search](https://github.com/stac-api-extensions/collection-search)
+- [collection-search](https://github.com/stac-api-extensions/collection-search)
 
-* [language](https://github.com/stac-api-extensions/language)
+- [language](https://github.com/stac-api-extensions/language)
 
-* [stac-context-collections](https://github.com/cedadev/stac-context-collections)*
+- [stac-context-collections](https://github.com/cedadev/stac-context-collections)*
 
 
 #### Deprecated
 
-* [Context](https://github.com/stac-api-extensions/context)
+- [Context](https://github.com/stac-api-extensions/context)
 
 
-
-* **Last updated:** Jan 27 2023, 20:20 
-* **Count:** 13
 
 You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-api-extensions/stac-api-extensions.github.io/edit/main/python/config.py)
 and creating a Pull Request for the change. All extensions hosted in the stac-api-extensions organization will be added automatically each night.
