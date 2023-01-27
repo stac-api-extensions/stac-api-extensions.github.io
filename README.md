@@ -37,7 +37,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Aggregation](https://github.com/stac-api-extensions/aggregation) | STAC API - Core | Proposal | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
 | [Children](https://github.com/stac-api-extensions/children) | STAC API - Core | Proposal | 1.0.0-rc.2 | Children Extension |
 | [collection-search](https://github.com/stac-api-extensions/collection-search) | *Unknown* | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
-| [context](https://github.com/stac-api-extensions/context) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Context Extension |
+| [context](https://github.com/stac-api-extensions/context) | STAC API - Features, STAC API - Item Search | Deprecated | 1.0.0-rc.2 | Context Extension |
 | [fields](https://github.com/stac-api-extensions/fields) | *Unknown* | *Unknown* | 1.0.0-rc.2 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
 | [filter](https://github.com/stac-api-extensions/filter) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Filter Extension |
 | [language](https://github.com/stac-api-extensions/language) | *Unknown* | *WIP* | **Unreleased** | Definitions and recommendations around making multi-lingual STAC APIs available |
@@ -80,9 +80,11 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 #### Deprecated
 
+* [context](https://github.com/stac-api-extensions/context)
 
 
-* **Last updated:** Jan 27 2023, 17:52 
+
+* **Last updated:** Jan 27 2023, 17:57 
 * **Count:** 13
 
 You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-api-extensions/stac-api-extensions.github.io/edit/main/python/config.py)
