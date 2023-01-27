@@ -34,8 +34,8 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 | Title | Scope | [Maturity](https://github.com/radiantearth/stac-api-spec/tree/master/extensions#extension-maturity) | Version | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
-| [Aggregation](https://github.com/stac-api-extensions/aggregation) | STAC API - Core | *Unknown* | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
-| [Children](https://github.com/stac-api-extensions/children) | STAC API - Core | *Unknown* | 1.0.0-rc.2 | Children Extension |
+| [Aggregation](https://github.com/stac-api-extensions/aggregation) | STAC API - Core | Proposal | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
+| [Children](https://github.com/stac-api-extensions/children) | STAC API - Core | Proposal | 1.0.0-rc.2 | Children Extension |
 | [collection-search](https://github.com/stac-api-extensions/collection-search) | *Unknown* | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
 | [context](https://github.com/stac-api-extensions/context) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Context Extension |
 | [fields](https://github.com/stac-api-extensions/fields) | *Unknown* | *Unknown* | 1.0.0-rc.2 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
@@ -62,6 +62,10 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 #### Proposal
 
+* [Aggregation](https://github.com/stac-api-extensions/aggregation)
+
+* [Children](https://github.com/stac-api-extensions/children)
+
 
 #### WIP
 
@@ -78,7 +82,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 
 
-* **Last updated:** Jan 27 2023, 17:41 
+* **Last updated:** Jan 27 2023, 17:52 
 * **Count:** 13
 
 You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-api-extensions/stac-api-extensions.github.io/edit/main/python/config.py)
