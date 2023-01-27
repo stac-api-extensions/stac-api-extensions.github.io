@@ -38,17 +38,17 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [{{e.title}}]({{e.url}}){% if e.external %}*{% endif %} | {{e.scope}} | {{e.maturity}} | {{e.version}} | {{e.description}} |
 {%- endfor %}
 
+- **Last updated:** {{updated}}
+- **Count:** {{count}}
+
 ### Grouped by maturity
 
 {% for level, extensions in maturities.items() %}
 #### {{ level }}
 {% for e in extensions %}
-* [{{e.title}}]({{e.url}}){% if e.external %}*{% endif %}
+- [{{e.title}}]({{e.url}}){% if e.external %}*{% endif %}
 {% endfor %}
 {% endfor %}
-
-* **Last updated:** {{updated}}
-* **Count:** {{count}}
 
 You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-api-extensions/stac-api-extensions.github.io/edit/main/python/config.py)
 and creating a Pull Request for the change. All extensions hosted in the stac-api-extensions organization will be added automatically each night.
