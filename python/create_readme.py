@@ -104,7 +104,7 @@ def get_extensions() -> list:
             src["scope"] = ", ".join(scopes)
 
           # Parse maturity
-          maturity = re.search(r"[\-\*]\s+[\*\_]*Extension\s+(?:(?:Maturity\s+)?Classification|\[Extension Maturity Classification\]\([^\)]+\))[\*\_]*:[\*\_]*\s*(.+)", readme.text, re.I)
+          maturity = re.search(r"[\-\*]\s+[\*\_]*\[Extension Maturity Classification\]\([^\)]+\)[\*\_]*:[\*\_]*\s*(\w+)", readme.text, re.I)
           if maturity and "maturity" not in src:
             maturity_str = maturity.group(1).strip()
             maturity_lc = maturity_str.lower()
