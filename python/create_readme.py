@@ -96,7 +96,7 @@ def get_extensions() -> list:
               src["title"] = title_str
         
           # Parse scope
-          scope = re.search(r"[\-\*]\s+[\*\_]*Scope[\*\_]*:[\*\_]*\s*([-\w\s,]+)", readme.text, re.I)
+          scope = re.search(r"[\-\*]\s+[\*\_]*Scope[\*\_]*:[\*\_]*\s*([-\w _,]+)", readme.text, re.I)
           if scope:
             scopes = scope.group(1).split(",")
             scopes = [s.strip() for s in scopes]
