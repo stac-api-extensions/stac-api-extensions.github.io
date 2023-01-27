@@ -30,29 +30,6 @@ This is meant to be the definitive list of STAC API Extensions, but not all of t
 An asterisk (*) indicates a community extension that is hosted externally.
 As such is not part of the stac-api-extensions GitHub organization and may not follow the normal procedure or classification for STAC extensions, e.g. regarding the maturity.
 
-Below you can also find a list of extensions grouped by [maturity](#grouped-by-maturity).
-
-### Alphabetical list
-
-| Title | Scope | [Maturity](https://github.com/radiantearth/stac-api-spec/tree/master/extensions#extension-maturity) | Version | Description |
-| ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
-| [Aggregation](https://github.com/stac-api-extensions/aggregation) | STAC API - Core | *Unknown* | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
-| [Children](https://github.com/stac-api-extensions/children) | STAC API - Core | *Unknown* | 1.0.0-rc.2 | Children Extension |
-| [collection-search](https://github.com/stac-api-extensions/collection-search) | *Unknown* | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
-| [context](https://github.com/stac-api-extensions/context) | *Unknown* | Candidate | 1.0.0-rc.2 | Context Extension |
-| [fields](https://github.com/stac-api-extensions/fields) | *Unknown* | Candidate | 1.0.0-rc.2 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
-| [filter](https://github.com/stac-api-extensions/filter) | *Unknown* | Pilot | 1.0.0-rc.2 | Filter Extension |
-| [language](https://github.com/stac-api-extensions/language) | *Unknown* | *WIP* | **Unreleased** | Definitions and recommendations around making multi-lingual STAC APIs available |
-| [query](https://github.com/stac-api-extensions/query) | *Unknown* | Candidate | 1.0.0-rc.2 | Query Extension |
-| [sort](https://github.com/stac-api-extensions/sort) | *Unknown* | Candidate | 1.0.0-rc.2 | Sort Extension |
-| [stac-context-collections](https://github.com/cedadev/stac-context-collections)* | *Unknown* | *WIP* | **Unreleased** | None |
-| [stac-freetext-search](https://github.com/cedadev/stac-freetext-search)* | *Unknown* | *Unknown* | 0.1.0 | None |
-| [transaction](https://github.com/stac-api-extensions/transaction) | *Unknown* | Candidate | 1.0.0-rc.2 | Transaction Extension |
-| [version](https://github.com/stac-api-extensions/version) | *Unknown* | *WIP* | **Unreleased** | Item and Collection Version Extension |
-
-* **Last updated:** Jan 27 2023, 17:33 
-* **Count:** 13
-
 ### Grouped by maturity
 
 
@@ -94,6 +71,27 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 #### Deprecated
 
 
+
+### Alphabetical
+
+| Title | Scope | [Maturity](https://github.com/radiantearth/stac-api-spec/tree/master/extensions#extension-maturity) | Version | Description |
+| ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
+| [Aggregation](https://github.com/stac-api-extensions/aggregation) | STAC API - Core | *Unknown* | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
+| [Children](https://github.com/stac-api-extensions/children) | STAC API - Core | *Unknown* | 1.0.0-rc.2 | Children Extension |
+| [collection-search](https://github.com/stac-api-extensions/collection-search) | *Unknown* | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
+| [context](https://github.com/stac-api-extensions/context) | *Unknown* | Candidate | 1.0.0-rc.2 | Context Extension |
+| [fields](https://github.com/stac-api-extensions/fields) | *Unknown* | Candidate | 1.0.0-rc.2 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
+| [filter](https://github.com/stac-api-extensions/filter) | *Unknown* | Pilot | 1.0.0-rc.2 | Filter Extension |
+| [language](https://github.com/stac-api-extensions/language) | *Unknown* | *WIP* | **Unreleased** | Definitions and recommendations around making multi-lingual STAC APIs available |
+| [query](https://github.com/stac-api-extensions/query) | *Unknown* | Candidate | 1.0.0-rc.2 | Query Extension |
+| [sort](https://github.com/stac-api-extensions/sort) | *Unknown* | Candidate | 1.0.0-rc.2 | Sort Extension |
+| [stac-context-collections](https://github.com/cedadev/stac-context-collections)* | *Unknown* | *WIP* | **Unreleased** | None |
+| [stac-freetext-search](https://github.com/cedadev/stac-freetext-search)* | *Unknown* | *Unknown* | 0.1.0 | None |
+| [transaction](https://github.com/stac-api-extensions/transaction) | *Unknown* | Candidate | 1.0.0-rc.2 | Transaction Extension |
+| [version](https://github.com/stac-api-extensions/version) | *Unknown* | *WIP* | **Unreleased** | Item and Collection Version Extension |
+
+* **Last updated:** Jan 27 2023, 17:36 
+* **Count:** 13
 
 You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-api-extensions/stac-api-extensions.github.io/edit/main/python/config.py)
 and creating a Pull Request for the change. All extensions hosted in the stac-api-extensions organization will be added automatically each night.
