@@ -88,7 +88,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 
 
-* **Last updated:** Jan 27 2023, 20:10 
+* **Last updated:** Jan 27 2023, 20:13 
 * **Count:** 13
 
 You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-api-extensions/stac-api-extensions.github.io/edit/main/python/config.py)
