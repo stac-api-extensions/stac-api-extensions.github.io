@@ -30,9 +30,16 @@ This is meant to be the definitive list of STAC API Extensions, but not all of t
 An asterisk (*) indicates a community extension that is hosted externally.
 As such is not part of the stac-api-extensions GitHub organization and may not follow the normal procedure or classification for STAC extensions, e.g. regarding the maturity.
 
-Below you can also find a list of extensions grouped by [maturity](#grouped-by-maturity).
+### Grouped by maturity
 
-### Alphabetical list
+{% for level, extensions in maturities.items() %}
+#### {{ level }}
+{% for e in extensions %}
+* [{{e.title}}]({{e.url}}){% if e.external %}*{% endif %}
+{% endfor %}
+{% endfor %}
+
+### Alphabetical
 
 | Title | Scope | [Maturity](https://github.com/radiantearth/stac-api-spec/tree/master/extensions#extension-maturity) | Version | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
@@ -42,15 +49,6 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 * **Last updated:** {{updated}}
 * **Count:** {{count}}
-
-### Grouped by maturity
-
-{% for level, extensions in maturities.items() %}
-#### {{ level }}
-{% for e in extensions %}
-* [{{e.title}}]({{e.url}}){% if e.external %}*{% endif %}
-{% endfor %}
-{% endfor %}
 
 You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-api-extensions/stac-api-extensions.github.io/edit/main/python/config.py)
 and creating a Pull Request for the change. All extensions hosted in the stac-api-extensions organization will be added automatically each night.
