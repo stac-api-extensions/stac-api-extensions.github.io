@@ -103,13 +103,6 @@ def get_extensions() -> list:
             scopes.sort()
             src["scope"] = ", ".join(scopes)
 
-          # Parse prefix
-          prefix = re.search(r"[\-\*]\s+[\*\_]*(?:Field\s+Name\s+)?Prefix[\*\_]*:[\*\_]*\s*`?(.{1,20})`?", readme.text, re.I)
-          if prefix:
-            prefix_str = prefix.group(1).strip()
-            if "template" not in prefix_str.lower():
-              src["prefix"] = prefix_str
-
           # Parse maturity
           maturity = re.search(r"[\-\*]\s+[\*\_]*Extension\s+(?:(?:Maturity\s+)?Classification|\[Maturity Classification\]\([^\)]+\))[\*\_]*:[\*\_]*\s*(.+)", readme.text, re.I)
           if maturity and "maturity" not in src:
@@ -122,8 +115,6 @@ def get_extensions() -> list:
       except error as e:
           logger.error(f"readme not available: {e}")
 
-    if "prefix" not in src:
-      src["prefix"] = unknown
     if "maturity" not in src:
       src["maturity"] = unknown
     if "scope" not in src:
