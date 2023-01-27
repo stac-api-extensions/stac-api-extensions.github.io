@@ -34,21 +34,21 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 ### Alphabetical list
 
-| Title | Field Name Prefix | Scope | [Maturity](https://github.com/radiantearth/stac-api-spec/tree/master/extensions#extension-maturity) | Version | Description |
+| Title | Scope | [Maturity](https://github.com/radiantearth/stac-api-spec/tree/master/extensions#extension-maturity) | Version | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
-| [aggregation](https://github.com/stac-api-extensions/aggregation) | *Unknown* | *Unknown* | Proposal | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
-| [children](https://github.com/stac-api-extensions/children) | *Unknown* | *Unknown* | *Unknown* | 1.0.0-rc.2 | Children Extension |
-| [collection-search](https://github.com/stac-api-extensions/collection-search) | *Unknown* | *Unknown* | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
-| [context](https://github.com/stac-api-extensions/context) | *Unknown* | *Unknown* | Candidate | 1.0.0-rc.2 | Context Extension |
-| [fields](https://github.com/stac-api-extensions/fields) | *Unknown* | *Unknown* | Candidate | 1.0.0-rc.2 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
-| [filter](https://github.com/stac-api-extensions/filter) | *Unknown* | *Unknown* | Pilot | 1.0.0-rc.2 | Filter Extension |
-| [language](https://github.com/stac-api-extensions/language) | *Unknown* | *Unknown* | *WIP* | **Unreleased** | Definitions and recommendations around making multi-lingual STAC APIs available |
-| [query](https://github.com/stac-api-extensions/query) | *Unknown* | *Unknown* | Candidate | 1.0.0-rc.2 | Query Extension |
-| [sort](https://github.com/stac-api-extensions/sort) | *Unknown* | *Unknown* | Candidate | 1.0.0-rc.2 | Sort Extension |
-| [transaction](https://github.com/stac-api-extensions/transaction) | *Unknown* | *Unknown* | Candidate | 1.0.0-rc.2 | Transaction Extension |
-| [version](https://github.com/stac-api-extensions/version) | *Unknown* | *Unknown* | *WIP* | **Unreleased** | Item and Collection Version Extension |
+| [aggregation](https://github.com/stac-api-extensions/aggregation) | *Unknown* | Proposal | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
+| [children](https://github.com/stac-api-extensions/children) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Children Extension |
+| [collection-search](https://github.com/stac-api-extensions/collection-search) | *Unknown* | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
+| [context](https://github.com/stac-api-extensions/context) | *Unknown* | Candidate | 1.0.0-rc.2 | Context Extension |
+| [fields](https://github.com/stac-api-extensions/fields) | *Unknown* | Candidate | 1.0.0-rc.2 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
+| [filter](https://github.com/stac-api-extensions/filter) | *Unknown* | Pilot | 1.0.0-rc.2 | Filter Extension |
+| [language](https://github.com/stac-api-extensions/language) | *Unknown* | *WIP* | **Unreleased** | Definitions and recommendations around making multi-lingual STAC APIs available |
+| [query](https://github.com/stac-api-extensions/query) | *Unknown* | Candidate | 1.0.0-rc.2 | Query Extension |
+| [sort](https://github.com/stac-api-extensions/sort) | *Unknown* | Candidate | 1.0.0-rc.2 | Sort Extension |
+| [transaction](https://github.com/stac-api-extensions/transaction) | *Unknown* | Candidate | 1.0.0-rc.2 | Transaction Extension |
+| [version](https://github.com/stac-api-extensions/version) | *Unknown* | *WIP* | **Unreleased** | Item and Collection Version Extension |
 
-* **Last updated:** Jan 27 2023, 16:48 
+* **Last updated:** Jan 27 2023, 16:55 
 * **Count:** 11
 
 ### Grouped by maturity
