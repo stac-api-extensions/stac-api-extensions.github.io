@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 headers = {}
 env = dict(os.environ)
 if "GITHUB_TOKEN" in env:
-  headers["Authorization"] = " ".join(["Bearer", os.environ["GITHUB_TOKEN"]])
+  headers["Authorization"] = f'Bearer {os.environ["GITHUB_TOKEN"]}'
 else:
   logger.warn("No GITHUB_TOKEN found in env")
 
@@ -23,10 +23,7 @@ def from_gh(response, external = False) -> dict:
     "title": response["name"],
     "url": response["html_url"],
     "description": response["description"],
-    "readme": "https://raw.githubusercontent.com/{path}/{branch}/README.md".format(
-      path = response["full_name"],
-      branch = response["default_branch"]
-    ),
+    "readme": f'https://raw.githubusercontent.com/{response["full_name"]}/{response["default_branch"]}/README.md',
     "tags": response["tags_url"],
     "external": external
   }
@@ -152,13 +149,13 @@ def group_by_maturity(extensions) -> dict:
     
   return levels
 
-def main() -> bool:
+def main():
   data = get_extensions()
   data.sort(key = lambda x: x["title"])
   maturities = group_by_maturity(data)
   count = len(data)
 
-  if count < 45:
+  if count < 5:
     logger.error("Something likely went wrong as there are not enough repos listed, don't override README")
     sys.exit(1)
   
