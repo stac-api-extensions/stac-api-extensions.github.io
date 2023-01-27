@@ -1,5 +1,5 @@
 # STAC API Extensions
-bump
+
 - [STAC API Extensions](#stac-api-extensions)
   - [List of STAC API Extensions](#list-of-stac-api-extensions)
     - [Alphabetical](#alphabetical)
@@ -48,7 +48,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [stac-context-collections](https://github.com/cedadev/stac-context-collections)* | *Unknown* | *WIP* | **Unreleased** | None |
 | [stac-freetext-search](https://github.com/cedadev/stac-freetext-search)* | *Unknown* | *Unknown* | 0.1.0 | None |
 
-- **Last updated:** Jan 27 2023, 20:24 
+- **Last updated:** Jan 27 2023, 20:26 
 - **Count:** 13
 
 ### Grouped by maturity
