@@ -1,7 +1,5 @@
 # STAC API Extensions
 
-bump
-
 - [STAC API Extensions](#stac-api-extensions)
   - [List of STAC API Extensions](#list-of-stac-api-extensions)
     - [Alphabetical](#alphabetical)
@@ -37,13 +35,13 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | Title | Scope | [Maturity](https://github.com/radiantearth/stac-api-spec/tree/master/extensions#extension-maturity) | Version | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
 | [Aggregation](https://github.com/stac-api-extensions/aggregation) | STAC API - Core | Proposal | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
-| [Children](https://github.com/stac-api-extensions/children) | STAC API - Core | Proposal | 1.0.0-rc.2 | Children Extension |
+| [Children](https://github.com/stac-api-extensions/children) | STAC API - Core | Proposal | 1.0.0-rc.2 | The purpose of this extension is to add an endpoint that presents a single resource from which clients can retrieve the immediate children of a Catalog. |
 | [Context](https://github.com/stac-api-extensions/context) | STAC API - Features, STAC API - Item Search | Deprecated | 1.0.0-rc.2 | Context Extension |
-| [Items and Collections API Version](https://github.com/stac-api-extensions/version) | STAC API - Features | *WIP* | **Unreleased** | Item and Collection Version Extension |
-| [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.2 | Transaction Extension |
+| [Fields](https://github.com/stac-api-extensions/fields) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.2 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
+| [Filter](https://github.com/stac-api-extensions/filter) | STAC API - Features, STAC API - Item Search | *Unknown* | 1.0.0-rc.2 | The Filter extension provides an expressive mechanism for searching based on Item attributes. |
+| [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.2 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
+| [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | *WIP* | **Unreleased** | Item and Collection Version Extension |
 | [collection-search](https://github.com/stac-api-extensions/collection-search) | *Unknown* | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
-| [fields](https://github.com/stac-api-extensions/fields) | *Unknown* | *Unknown* | 1.0.0-rc.2 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
-| [filter](https://github.com/stac-api-extensions/filter) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Filter Extension |
 | [language](https://github.com/stac-api-extensions/language) | *Unknown* | *WIP* | **Unreleased** | Definitions and recommendations around making multi-lingual STAC APIs available |
 | [query](https://github.com/stac-api-extensions/query) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Query Extension |
 | [sort](https://github.com/stac-api-extensions/sort) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Sort Extension |
@@ -57,6 +55,8 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 
 #### Candidate
+
+* [Fields](https://github.com/stac-api-extensions/fields)
 
 * [Transaction](https://github.com/stac-api-extensions/transaction)
 
@@ -73,7 +73,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 #### WIP
 
-* [Items and Collections API Version](https://github.com/stac-api-extensions/version)
+* [Version](https://github.com/stac-api-extensions/version)
 
 * [collection-search](https://github.com/stac-api-extensions/collection-search)
 
@@ -88,7 +88,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 
 
-* **Last updated:** Jan 27 2023, 19:56 
+* **Last updated:** Jan 27 2023, 20:10 
 * **Count:** 13
 
 You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-api-extensions/stac-api-extensions.github.io/edit/main/python/config.py)
