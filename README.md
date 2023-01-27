@@ -37,15 +37,15 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Aggregation](https://github.com/stac-api-extensions/aggregation) | STAC API - Core | *Unknown* | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
 | [Children](https://github.com/stac-api-extensions/children) | STAC API - Core | *Unknown* | 1.0.0-rc.2 | Children Extension |
 | [collection-search](https://github.com/stac-api-extensions/collection-search) | *Unknown* | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
-| [context](https://github.com/stac-api-extensions/context) | *Unknown* | Candidate | 1.0.0-rc.2 | Context Extension |
-| [fields](https://github.com/stac-api-extensions/fields) | *Unknown* | Candidate | 1.0.0-rc.2 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
-| [filter](https://github.com/stac-api-extensions/filter) | *Unknown* | Pilot | 1.0.0-rc.2 | Filter Extension |
+| [context](https://github.com/stac-api-extensions/context) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Context Extension |
+| [fields](https://github.com/stac-api-extensions/fields) | *Unknown* | *Unknown* | 1.0.0-rc.2 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
+| [filter](https://github.com/stac-api-extensions/filter) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Filter Extension |
 | [language](https://github.com/stac-api-extensions/language) | *Unknown* | *WIP* | **Unreleased** | Definitions and recommendations around making multi-lingual STAC APIs available |
-| [query](https://github.com/stac-api-extensions/query) | *Unknown* | Candidate | 1.0.0-rc.2 | Query Extension |
-| [sort](https://github.com/stac-api-extensions/sort) | *Unknown* | Candidate | 1.0.0-rc.2 | Sort Extension |
+| [query](https://github.com/stac-api-extensions/query) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Query Extension |
+| [sort](https://github.com/stac-api-extensions/sort) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Sort Extension |
 | [stac-context-collections](https://github.com/cedadev/stac-context-collections)* | *Unknown* | *WIP* | **Unreleased** | None |
 | [stac-freetext-search](https://github.com/cedadev/stac-freetext-search)* | *Unknown* | *Unknown* | 0.1.0 | None |
-| [transaction](https://github.com/stac-api-extensions/transaction) | *Unknown* | Candidate | 1.0.0-rc.2 | Transaction Extension |
+| [transaction](https://github.com/stac-api-extensions/transaction) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Transaction Extension |
 | [version](https://github.com/stac-api-extensions/version) | *Unknown* | *WIP* | **Unreleased** | Item and Collection Version Extension |
 
 ### Grouped by maturity
@@ -56,20 +56,8 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 #### Candidate
 
-* [context](https://github.com/stac-api-extensions/context)
-
-* [fields](https://github.com/stac-api-extensions/fields)
-
-* [query](https://github.com/stac-api-extensions/query)
-
-* [sort](https://github.com/stac-api-extensions/sort)
-
-* [transaction](https://github.com/stac-api-extensions/transaction)
-
 
 #### Pilot
-
-* [filter](https://github.com/stac-api-extensions/filter)
 
 
 #### Proposal
@@ -90,7 +78,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 
 
-* **Last updated:** Jan 27 2023, 17:40 
+* **Last updated:** Jan 27 2023, 17:41 
 * **Count:** 13
 
 You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-api-extensions/stac-api-extensions.github.io/edit/main/python/config.py)
