@@ -36,7 +36,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 | Title | Scope | [Maturity](https://github.com/radiantearth/stac-api-spec/tree/master/extensions#extension-maturity) | Version | Description |
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
-| [aggregation](https://github.com/stac-api-extensions/aggregation) | *Unknown* | Proposal | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
+| [Aggregation](https://github.com/stac-api-extensions/aggregation) | STAC API | Proposal | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
 | [children](https://github.com/stac-api-extensions/children) | *Unknown* | *Unknown* | 1.0.0-rc.2 | Children Extension |
 | [collection-search](https://github.com/stac-api-extensions/collection-search) | *Unknown* | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
 | [context](https://github.com/stac-api-extensions/context) | *Unknown* | Candidate | 1.0.0-rc.2 | Context Extension |
@@ -48,7 +48,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [transaction](https://github.com/stac-api-extensions/transaction) | *Unknown* | Candidate | 1.0.0-rc.2 | Transaction Extension |
 | [version](https://github.com/stac-api-extensions/version) | *Unknown* | *WIP* | **Unreleased** | Item and Collection Version Extension |
 
-* **Last updated:** Jan 27 2023, 16:55 
+* **Last updated:** Jan 27 2023, 17:04 
 * **Count:** 11
 
 ### Grouped by maturity
@@ -77,7 +77,7 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 
 #### Proposal
 
-* [aggregation](https://github.com/stac-api-extensions/aggregation)
+* [Aggregation](https://github.com/stac-api-extensions/aggregation)
 
 
 #### WIP
