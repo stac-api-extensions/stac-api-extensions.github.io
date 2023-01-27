@@ -1,5 +1,5 @@
 # STAC API Extensions
-bump
+
 - [STAC API Extensions](#stac-api-extensions)
   - [List of STAC API Extensions](#list-of-stac-api-extensions)
     - [Alphabetical](#alphabetical)
@@ -42,13 +42,13 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Query](https://github.com/stac-api-extensions/query) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.2 | Query Extension |
 | [Sort](https://github.com/stac-api-extensions/sort) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.2 | Sort Extension |
 | [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.2 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
-| [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | *WIP* | **Unreleased** | Item and Collection Version Extension |
+| [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
 | [collection-search](https://github.com/stac-api-extensions/collection-search) | *Unknown* | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
 | [language](https://github.com/stac-api-extensions/language) | *Unknown* | *WIP* | **Unreleased** | Definitions and recommendations around making multi-lingual STAC APIs available |
 | [stac-context-collections](https://github.com/cedadev/stac-context-collections)* | *Unknown* | *WIP* | **Unreleased** | None |
 | [stac-freetext-search](https://github.com/cedadev/stac-freetext-search)* | *Unknown* | *Unknown* | 0.1.0 | None |
 
-- **Last updated:** Jan 27 2023, 20:29 
+- **Last updated:** Jan 27 2023, 20:33 
 - **Count:** 13
 
 ### Grouped by maturity
@@ -82,8 +82,6 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 #### WIP
 
-- [Version](https://github.com/stac-api-extensions/version)
-
 - [collection-search](https://github.com/stac-api-extensions/collection-search)
 
 - [language](https://github.com/stac-api-extensions/language)
@@ -94,6 +92,8 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 #### Deprecated
 
 - [Context](https://github.com/stac-api-extensions/context)
+
+- [Version](https://github.com/stac-api-extensions/version)
 
 
 
