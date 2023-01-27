@@ -45,11 +45,13 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 | [language](https://github.com/stac-api-extensions/language) | *Unknown* | *WIP* | **Unreleased** | Definitions and recommendations around making multi-lingual STAC APIs available |
 | [query](https://github.com/stac-api-extensions/query) | *Unknown* | Candidate | 1.0.0-rc.2 | Query Extension |
 | [sort](https://github.com/stac-api-extensions/sort) | *Unknown* | Candidate | 1.0.0-rc.2 | Sort Extension |
+| [stac-context-collections](https://github.com/cedadev/stac-context-collections)* | *Unknown* | *WIP* | **Unreleased** | None |
+| [stac-freetext-search](https://github.com/cedadev/stac-freetext-search)* | *Unknown* | *Unknown* | 0.1.0 | None |
 | [transaction](https://github.com/stac-api-extensions/transaction) | *Unknown* | Candidate | 1.0.0-rc.2 | Transaction Extension |
 | [version](https://github.com/stac-api-extensions/version) | *Unknown* | *WIP* | **Unreleased** | Item and Collection Version Extension |
 
-* **Last updated:** Jan 27 2023, 17:31 
-* **Count:** 11
+* **Last updated:** Jan 27 2023, 17:33 
+* **Count:** 13
 
 ### Grouped by maturity
 
@@ -83,6 +85,8 @@ Below you can also find a list of extensions grouped by [maturity](#grouped-by-m
 * [collection-search](https://github.com/stac-api-extensions/collection-search)
 
 * [language](https://github.com/stac-api-extensions/language)
+
+* [stac-context-collections](https://github.com/cedadev/stac-context-collections)*
 
 * [version](https://github.com/stac-api-extensions/version)
 
