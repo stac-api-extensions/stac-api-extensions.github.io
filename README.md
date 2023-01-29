@@ -36,19 +36,19 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
 | [Aggregation](https://github.com/stac-api-extensions/aggregation) | STAC API - Core | Proposal | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
 | [Children](https://github.com/stac-api-extensions/children) | STAC API - Core | Proposal | 1.0.0-rc.2 | The purpose of this extension is to add an endpoint that presents a single resource from which clients can retrieve the immediate children of a Catalog. |
+| [Collection Search](https://github.com/stac-api-extensions/collection-search) | STAC API - Core | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
 | [Context](https://github.com/stac-api-extensions/context) | STAC API - Features, STAC API - Item Search | Deprecated | 1.0.0-rc.2 | Context Extension |
 | [Fields](https://github.com/stac-api-extensions/fields) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.2 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
 | [Filter](https://github.com/stac-api-extensions/filter) | STAC API - Features, STAC API - Item Search | Pilot | 1.0.0-rc.2 | The Filter extension provides an expressive mechanism for searching based on Item attributes. |
+| [Language (I18N)](https://github.com/stac-api-extensions/language) | STAC API - Core | *WIP* | **Unreleased** | Definitions and recommendations around making multi-lingual STAC APIs available |
 | [Query](https://github.com/stac-api-extensions/query) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.2 | The Query Extension adds a query parameter that allows additional filtering based on the properties of Item objects. |
 | [Sort](https://github.com/stac-api-extensions/sort) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.2 | The Sort Extension that allows the user to define the fields by which to sort results.  |
 | [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.2 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
 | [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
-| [collection-search](https://github.com/stac-api-extensions/collection-search) | *Unknown* | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
-| [language](https://github.com/stac-api-extensions/language) | *Unknown* | *WIP* | **Unreleased** | Definitions and recommendations around making multi-lingual STAC APIs available |
 | [stac-context-collections](https://github.com/cedadev/stac-context-collections)* | *Unknown* | *WIP* | **Unreleased** | None |
 | [stac-freetext-search](https://github.com/cedadev/stac-freetext-search)* | *Unknown* | *Unknown* | 0.1.0 | None |
 
-- **Last updated:** Jan 28 2023, 00:47 
+- **Last updated:** Jan 29 2023, 00:51 
 - **Count:** 13
 
 ### Grouped by maturity
@@ -82,9 +82,9 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 #### WIP
 
-- [collection-search](https://github.com/stac-api-extensions/collection-search)
+- [Collection Search](https://github.com/stac-api-extensions/collection-search)
 
-- [language](https://github.com/stac-api-extensions/language)
+- [Language (I18N)](https://github.com/stac-api-extensions/language)
 
 - [stac-context-collections](https://github.com/cedadev/stac-context-collections)*
 
