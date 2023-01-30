@@ -48,7 +48,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [stac-context-collections](https://github.com/cedadev/stac-context-collections)* | *Unknown* | *WIP* | **Unreleased** | None |
 | [stac-freetext-search](https://github.com/cedadev/stac-freetext-search)* | *Unknown* | *Unknown* | 0.1.0 | None |
 
-- **Last updated:** Jan 29 2023, 00:51 
+- **Last updated:** Jan 30 2023, 00:43 
 - **Count:** 13
 
 ### Grouped by maturity
