@@ -49,7 +49,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
 | [best-practices](https://github.com/stac-api-extensions/best-practices) | *Unknown* | *WIP* | **Unreleased** | A place to hold STAC API Best Practices documenation |
 
-- **Last updated:** Feb 12 2023, 00:52 
+- **Last updated:** Feb 13 2023, 00:51 
 - **Count:** 14
 
 ### Grouped by maturity
