@@ -33,7 +33,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 ### Alphabetical
 
 | Title | Scope | [Maturity](https://github.com/radiantearth/stac-api-spec/tree/master/extensions#extension-maturity) | Version | Description |
-| ----- | ----------------- | ----- | ----------------------------------------------------------------------------------------------- | ------- | ----------- |
+| ----- | ----- | --------------------------------------------------------------------------------------------------- | ------- | ----------- |
 | [Aggregation](https://github.com/stac-api-extensions/aggregation) | STAC API - Core | Proposal | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
 | [Children](https://github.com/stac-api-extensions/children) | STAC API - Core | Proposal | 1.0.0-rc.2 | The purpose of this extension is to add an endpoint that presents a single resource from which clients can retrieve the immediate children of a Catalog. |
 | [Collection Search](https://github.com/stac-api-extensions/collection-search) | STAC API - Core | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
@@ -50,7 +50,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [best-practices](https://github.com/stac-api-extensions/best-practices) | *Unknown* | *WIP* | **Unreleased** | A place to hold STAC API Best Practices documenation |
 | [incubator](https://github.com/stac-api-extensions/incubator) | *Unknown* | *WIP* | **Unreleased** | Repo for Issues and documentation relating to proposed extensions |
 
-- **Last updated:** Feb 14 2023, 00:51 
+- **Last updated:** Feb 14 2023, 13:22 
 - **Count:** 15
 
 ### Grouped by maturity
