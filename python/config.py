@@ -12,5 +12,7 @@ EXTERNAL_EXTENSIONS = [
 # Names of repositories in the stac-api-extensions org to skip
 IGNORE_REPOS = [
   "stac-api-extensions.github.io",
-  "template"
+  "template",
+  "incubator",
+  "best-practices"
 ]
