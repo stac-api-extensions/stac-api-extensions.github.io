@@ -47,11 +47,9 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Sort](https://github.com/stac-api-extensions/sort) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.2 | The Sort Extension that allows the user to define the fields by which to sort results.  |
 | [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.2 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
 | [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
-| [best-practices](https://github.com/stac-api-extensions/best-practices) | *Unknown* | *WIP* | **Unreleased** | A place to hold STAC API Best Practices documenation |
-| [incubator](https://github.com/stac-api-extensions/incubator) | *Unknown* | *WIP* | **Unreleased** | Repo for Issues and documentation relating to proposed extensions |
 
-- **Last updated:** Feb 14 2023, 13:22 
-- **Count:** 15
+- **Last updated:** Feb 14 2023, 13:24 
+- **Count:** 13
 
 ### Grouped by maturity
 
@@ -91,10 +89,6 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 - [Context Collections Extension Specification](https://github.com/cedadev/stac-context-collections)*
 
 - [Language (I18N)](https://github.com/stac-api-extensions/language)
-
-- [best-practices](https://github.com/stac-api-extensions/best-practices)
-
-- [incubator](https://github.com/stac-api-extensions/incubator)
 
 
 #### Deprecated
