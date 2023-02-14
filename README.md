@@ -35,6 +35,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | Title | Scope | [Maturity](https://github.com/radiantearth/stac-api-spec/tree/master/extensions#extension-maturity) | Version | Description |
 | ----- | ----- | --------------------------------------------------------------------------------------------------- | ------- | ----------- |
 | [Aggregation](https://github.com/stac-api-extensions/aggregation) | STAC API - Core | Proposal | 0.2.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
+| [Browseable](https://github.com/stac-api-extensions/browseable) | STAC API - Core | *WIP* | **Unreleased** | Browseable advertises all Items in a STAC API Catalog can be reached by traversing child and item links. |
 | [Children](https://github.com/stac-api-extensions/children) | STAC API - Core | Proposal | 1.0.0-rc.2 | The purpose of this extension is to add an endpoint that presents a single resource from which clients can retrieve the immediate children of a Catalog. |
 | [Collection Search](https://github.com/stac-api-extensions/collection-search) | STAC API - Core | *WIP* | **Unreleased** | WIP - Collection Search for STAC APIs |
 | [Context](https://github.com/stac-api-extensions/context) | STAC API - Features, STAC API - Item Search | Deprecated | 1.0.0-rc.2 | Context Extension |
@@ -48,8 +49,8 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.2 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
 | [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
 
-- **Last updated:** Feb 14 2023, 13:24 
-- **Count:** 13
+- **Last updated:** Feb 14 2023, 13:34 
+- **Count:** 14
 
 ### Grouped by maturity
 
@@ -83,6 +84,8 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 
 #### WIP
+
+- [Browseable](https://github.com/stac-api-extensions/browseable)
 
 - [Collection Search](https://github.com/stac-api-extensions/collection-search)
 
