@@ -32,7 +32,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 ### Alphabetical
 
-| Title | Scope | [Maturity](https://github.com/radiantearth/stac-api-spec/tree/master/extensions#extension-maturity) | Version | Description |
+| Title | Scope | [Maturity](https://github.com/radiantearth/stac-api-spec/blob/master/README.md#maturity-classification) | Version | Description |
 | ----- | ----- | --------------------------------------------------------------------------------------------------- | ------- | ----------- |
 | [Aggregation](https://github.com/stac-api-extensions/aggregation) | STAC API - Core | Proposal | 0.3.0 | Aggregation Extension to provide aggregated data over a search, rather than individual Item results |
 | [Browseable](https://github.com/stac-api-extensions/browseable) | STAC API - Core | Proposal | 1.0.0-rc.3 | Browseable advertises all Items in a STAC API Catalog can be reached by traversing child and item links. |
@@ -49,14 +49,12 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.2 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
 | [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
 
-- **Last updated:** Jun 06 2023, 00:53 
+- **Last updated:** Jun 06 2023, 00:53
 - **Count:** 14
 
 ### Grouped by maturity
 
-
 #### Stable
-
 
 #### Candidate
 
@@ -68,11 +66,9 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 - [Transaction](https://github.com/stac-api-extensions/transaction)
 
-
 #### Pilot
 
 - [Filter](https://github.com/stac-api-extensions/filter)
-
 
 #### Proposal
 
@@ -86,21 +82,17 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 - [Language (I18N)](https://github.com/stac-api-extensions/language)
 
-
 #### WIP
 
 - [Collection Search](https://github.com/stac-api-extensions/collection-search)
 
 - [Context Collections](https://github.com/cedadev/stac-context-collections)*
 
-
 #### Deprecated
 
 - [Context](https://github.com/stac-api-extensions/context)
 
 - [Version](https://github.com/stac-api-extensions/version)
-
-
 
 You can add external/community extensions to the list above by editing the [config file](https://github.com/stac-api-extensions/stac-api-extensions.github.io/edit/main/python/config.py)
 and creating a Pull Request for the change. All extensions hosted in the stac-api-extensions organization will be added automatically each night.
