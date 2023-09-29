@@ -40,16 +40,16 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Collection Search](https://github.com/stac-api-extensions/collection-search) | STAC API - Core | Pilot | 1.0.0-rc.1 | Collection Search for STAC APIs |
 | [Context](https://github.com/stac-api-extensions/context) | STAC API - Features, STAC API - Item Search | Deprecated | 1.0.0-rc.2 | Context Extension |
 | [Context Collections](https://github.com/cedadev/stac-context-collections)* | STAC - Core | *WIP* | **Unreleased** | This defines a new parameter, collections inside the context response which is a summary of all the collections which are part of the current result context. |
-| [Fields](https://github.com/stac-api-extensions/fields) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.3 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
+| [Fields](https://github.com/stac-api-extensions/fields) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
 | [Filter](https://github.com/stac-api-extensions/filter) | STAC API - Features, STAC API - Item Search | Pilot | 1.0.0-rc.2 | The Filter extension provides an expressive mechanism for searching based on Item attributes. |
 | [Free-Text Search](https://github.com/cedadev/stac-freetext-search)* | STAC API - Core | Proposal | 0.1.0 | This defines a new parameter, q that allows the user to perform free-text queries against the item properties. |
 | [Language (I18N)](https://github.com/stac-api-extensions/language) | STAC API - Core | Pilot | 1.0.0-rc.2 | Definitions and recommendations around making multi-lingual STAC APIs available |
 | [Query](https://github.com/stac-api-extensions/query) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.2 | The Query Extension adds a query parameter that allows additional filtering based on the properties of Item objects. |
-| [Sort](https://github.com/stac-api-extensions/sort) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.2 | The Sort Extension that allows the user to define the fields by which to sort results.  |
+| [Sort](https://github.com/stac-api-extensions/sort) | STAC API - Features, STAC API - Item Search | Stable | 1.0.0 | The Sort Extension that allows the user to define the fields by which to sort results.  |
 | [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.2 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
 | [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
 
-- **Last updated:** Sep 28 2023, 00:38 
+- **Last updated:** Sep 29 2023, 00:38 
 - **Count:** 14
 
 ### Grouped by maturity
@@ -57,14 +57,14 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 #### Stable
 
+- [Sort](https://github.com/stac-api-extensions/sort)
+
 
 #### Candidate
 
 - [Fields](https://github.com/stac-api-extensions/fields)
 
 - [Query](https://github.com/stac-api-extensions/query)
-
-- [Sort](https://github.com/stac-api-extensions/sort)
 
 - [Transaction](https://github.com/stac-api-extensions/transaction)
 
