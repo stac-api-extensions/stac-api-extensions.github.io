@@ -44,12 +44,12 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Filter](https://github.com/stac-api-extensions/filter) | STAC API - Features, STAC API - Item Search | Pilot | 1.0.0-rc.2 | The Filter extension provides an expressive mechanism for searching based on Item attributes. |
 | [Free-Text Search](https://github.com/cedadev/stac-freetext-search)* | STAC API - Core | Proposal | 0.1.0 | This defines a new parameter, q that allows the user to perform free-text queries against the item properties. |
 | [Language (I18N)](https://github.com/stac-api-extensions/language) | STAC API - Core | Pilot | 1.0.0-rc.2 | Definitions and recommendations around making multi-lingual STAC APIs available |
-| [Query](https://github.com/stac-api-extensions/query) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.2 | The Query Extension adds a query parameter that allows additional filtering based on the properties of Item objects. |
+| [Query](https://github.com/stac-api-extensions/query) | STAC API - Features, STAC API - Item Search | Stable | 1.0.0 | The Query Extension adds a query parameter that allows additional filtering based on the properties of Item objects. |
 | [Sort](https://github.com/stac-api-extensions/sort) | STAC API - Features, STAC API - Item Search | Stable | 1.0.0 | The Sort Extension that allows the user to define the fields by which to sort results.  |
-| [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.2 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
+| [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.3 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
 | [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
 
-- **Last updated:** Sep 29 2023, 00:38 
+- **Last updated:** Sep 30 2023, 00:37 
 - **Count:** 14
 
 ### Grouped by maturity
@@ -57,14 +57,14 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 #### Stable
 
+- [Query](https://github.com/stac-api-extensions/query)
+
 - [Sort](https://github.com/stac-api-extensions/sort)
 
 
 #### Candidate
 
 - [Fields](https://github.com/stac-api-extensions/fields)
-
-- [Query](https://github.com/stac-api-extensions/query)
 
 - [Transaction](https://github.com/stac-api-extensions/transaction)
 
