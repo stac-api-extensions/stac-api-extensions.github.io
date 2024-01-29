@@ -1,7 +1,6 @@
 # Names of GitHub repositories not in stac-api-extensions org
 COMMUNITY_REPOS = [
   # org, repo name
-  ['cedadev', 'stac-freetext-search'], 
   ['cedadev', 'stac-context-collections'], 
 ]
 
