@@ -41,6 +41,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Collection Transaction](https://github.com/stac-api-extensions/collection-transaction) | STAC API - Collections | Candidate | 1.0.0-beta.1 | The Collection Transaction Extension supports the creation, editing, and deleting of Collections through POST, PUT, PATCH, and DELETE requests.  |
 | [Context](https://github.com/stac-api-extensions/context) | STAC API - Features, STAC API - Item Search | Deprecated | 1.0.0-rc.2 | Context Extension |
 | [Context Collections](https://github.com/cedadev/stac-context-collections)* | STAC - Core | *WIP* | **Unreleased** | This defines a new parameter, collections inside the context response which is a summary of all the collections which are part of the current result context. |
+| [Distribution](https://github.com/stac-api-extensions/distribution) | STAC API - Core | *WIP* | **Unreleased** | STAC API - Distribution Specification |
 | [Fields](https://github.com/stac-api-extensions/fields) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
 | [Filter](https://github.com/stac-api-extensions/filter) | STAC API - Features, STAC API - Item Search | Pilot | 1.0.0-rc.3 | The Filter extension provides an expressive mechanism for searching based on Item attributes. |
 | [Free-Text Search](https://github.com/stac-api-extensions/freetext-search) | - STAC API - Collection Search | Proposal | 1.0.0-rc.1 | This defines a new parameter, q that allows the user to perform free-text queries against the item properties. |
@@ -50,8 +51,8 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.3 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
 | [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
 
-- **Last updated:** May 15 2024, 00:41 
-- **Count:** 15
+- **Last updated:** May 16 2024, 00:41 
+- **Count:** 16
 
 ### Grouped by maturity
 
@@ -95,6 +96,8 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 #### WIP
 
 - [Context Collections](https://github.com/cedadev/stac-context-collections)*
+
+- [Distribution](https://github.com/stac-api-extensions/distribution)
 
 
 #### Deprecated
