@@ -1,7 +1,7 @@
 from os import error
 from pathlib import Path
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 from jinja2 import Template
 import logging
 import re
@@ -150,11 +150,11 @@ def main():
     logger.error("Something likely went wrong as there are not enough repos listed, don't override README")
     sys.exit(1)
   
-  now = datetime.utcnow().strftime("%b %d %Y, %H:%M %Z")
+  now = datetime.now(timezone.utc).strftime("%b %d %Y, %H:%M %Z")
   template = Template(Path("./python/README_TEMPLATE.md.jinja").read_text())
 
-  with Path("./README.md") as f:
-    f.write_text(template.render(extensions=data, maturities=maturities, updated=now, count=count))
+  f = Path("./README.md"):
+  f.write_text(template.render(extensions=data, maturities=maturities, updated=now, count=count))
 
   sys.exit(0)
 
