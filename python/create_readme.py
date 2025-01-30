@@ -153,7 +153,7 @@ def main():
   now = datetime.now(timezone.utc).strftime("%b %d %Y, %H:%M %Z")
   template = Template(Path("./python/README_TEMPLATE.md.jinja").read_text())
 
-  f = Path("./README.md"):
+  f = Path("./README.md")
   f.write_text(template.render(extensions=data, maturities=maturities, updated=now, count=count))
 
   sys.exit(0)
