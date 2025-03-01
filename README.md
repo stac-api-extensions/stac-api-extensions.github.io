@@ -43,7 +43,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Context Collections](https://github.com/cedadev/stac-context-collections)* | STAC - Core | *WIP* | **Unreleased** | This defines a new parameter, collections inside the context response which is a summary of all the collections which are part of the current result context. |
 | [Distribution](https://github.com/stac-api-extensions/distribution) | STAC API - Core | *WIP* | **Unreleased** | STAC API - Distribution Specification |
 | [Fields](https://github.com/stac-api-extensions/fields) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0 | The Fields Extensions describes a mechanism to include or exclude certain fields from a response. |
-| [Filter](https://github.com/stac-api-extensions/filter) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.3 | The Filter extension provides an expressive mechanism for searching based on Item attributes. |
+| [Filter](https://github.com/stac-api-extensions/filter) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.4 | The Filter extension provides an expressive mechanism for searching based on Item attributes. |
 | [Free-Text Search](https://github.com/stac-api-extensions/freetext-search) | - STAC API - Collection Search | Proposal | 1.0.0-rc.1 | This defines a new parameter, q that allows the user to perform free-text queries against the item properties. |
 | [Language (I18N)](https://github.com/stac-api-extensions/language) | STAC API - Core | Pilot | 1.0.0-rc.2 | Definitions and recommendations around making multi-lingual STAC APIs available |
 | [Query](https://github.com/stac-api-extensions/query) | STAC API - Features, STAC API - Item Search | Stable | 1.0.0 | The Query Extension adds a query parameter that allows additional filtering based on the properties of Item objects. |
@@ -51,7 +51,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.3 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
 | [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
 
-- **Last updated:** Feb 28 2025, 00:55 UTC
+- **Last updated:** Mar 01 2025, 00:59 UTC
 - **Count:** 16
 
 ### Grouped by maturity
