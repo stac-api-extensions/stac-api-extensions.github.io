@@ -51,7 +51,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.3 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
 | [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
 
-- **Last updated:** Mar 31 2025, 01:01 UTC
+- **Last updated:** Apr 01 2025, 01:05 UTC
 - **Count:** 16
 
 ### Grouped by maturity
