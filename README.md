@@ -47,11 +47,11 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Free-Text Search](https://github.com/stac-api-extensions/freetext-search) | - STAC API - Collection Search | Proposal | 1.0.0-rc.1 | This defines a new parameter, q that allows the user to perform free-text queries against the item properties. |
 | [Language (I18N)](https://github.com/stac-api-extensions/language) | STAC API - Core | Pilot | 1.0.0-rc.2 | Definitions and recommendations around making multi-lingual STAC APIs available |
 | [Query](https://github.com/stac-api-extensions/query) | STAC API - Features, STAC API - Item Search | Stable | 1.0.0 | The Query Extension adds a query parameter that allows additional filtering based on the properties of Item objects. |
-| [Sort](https://github.com/stac-api-extensions/sort) | STAC API - Features, STAC API - Item Search | Stable | 1.0.0 | The Sort Extension that allows the user to define the fields by which to sort results.  |
+| [Sort](https://github.com/stac-api-extensions/sort) | STAC API - Collection Search, STAC API - Features, STAC API - Item Search | Stable | 1.0.0 | The Sort Extension that allows the user to define the fields by which to sort results.  |
 | [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.3 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
 | [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
 
-- **Last updated:** Jun 04 2025, 01:03 UTC
+- **Last updated:** Jun 05 2025, 01:02 UTC
 - **Count:** 16
 
 ### Grouped by maturity
