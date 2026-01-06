@@ -3,6 +3,7 @@ COMMUNITY_REPOS = [
   # org, repo name
   ['cedadev', 'stac-context-collections'], 
   ['Healy-Hyperspatial', 'stac-api-extensions-catalogs'],
+  ['Healy-Hyperspatial', 'skos-registry'], 
 ]
 
 # Other extensions that are not on GitHub
