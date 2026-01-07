@@ -2,7 +2,8 @@
 COMMUNITY_REPOS = [
   # org, repo name
   ['cedadev', 'stac-context-collections'], 
-  ['Healy-Hyperspatial', 'stac-api-extensions-catalogs'],
+  ['Healy-Hyperspatial', 'virtual-catalogs-endpoint'],
+  ['Healy-Hyperspatial', 'collection-search-large-payloads'],
   ['Healy-Hyperspatial', 'skos-registry'], 
 ]
 
