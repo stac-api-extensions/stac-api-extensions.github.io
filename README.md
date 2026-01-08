@@ -47,14 +47,15 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Filter](https://github.com/stac-api-extensions/filter) | STAC API - Features, STAC API - Item Search | Candidate | 1.0.0-rc.4 | The Filter extension provides an expressive mechanism for searching based on Item attributes. |
 | [Free-Text Search](https://github.com/stac-api-extensions/freetext-search) | - STAC API - Collection Search | Proposal | 1.0.0-rc.1 | This defines a new parameter, q that allows the user to perform free-text queries against the item properties. |
 | [Language (I18N)](https://github.com/stac-api-extensions/language) | STAC API - Core | Pilot | 1.0.0-rc.2 | Definitions and recommendations around making multi-lingual STAC APIs available |
+| [Multi-Tenant Catalogs Endpoint](https://github.com/Healy-Hyperspatial/multi-tenant-catalogs)* | STAC API - Core | *WIP* | **Unreleased** | Extension to support Multi-Catalog STAC hierarchies via a dedicated /catalogs endpoint. (Recursive Tree architecture). |
 | [Query](https://github.com/stac-api-extensions/query) | STAC API - Features, STAC API - Item Search | Stable | 1.0.0 | The Query Extension adds a query parameter that allows additional filtering based on the properties of Item objects. |
 | [SKOS Registry](https://github.com/Healy-Hyperspatial/skos-registry)* | STAC API - Core | *WIP* | **Unreleased** | This extension defines a standard mechanism to expose SKOS (Simple Knowledge Organization System) hierarchies as navigable Virtual Catalogs. |
 | [Sort](https://github.com/stac-api-extensions/sort) | STAC API - Collection Search, STAC API - Features, STAC API - Item Search | Stable | 1.1.0 | The Sort Extension that allows the user to define the fields by which to sort results.  |
 | [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.3 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
 | [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
 
-- **Last updated:** Jan 08 2026, 01:08 UTC
-- **Count:** 18
+- **Last updated:** Jan 08 2026, 08:01 UTC
+- **Count:** 19
 
 ### Grouped by maturity
 
@@ -102,6 +103,8 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 - [Context Collections](https://github.com/cedadev/stac-context-collections)*
 
 - [Distribution](https://github.com/stac-api-extensions/distribution)
+
+- [Multi-Tenant Catalogs Endpoint](https://github.com/Healy-Hyperspatial/multi-tenant-catalogs)*
 
 - [SKOS Registry](https://github.com/Healy-Hyperspatial/skos-registry)*
 
