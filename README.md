@@ -38,7 +38,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Browseable](https://github.com/stac-api-extensions/browseable) | STAC API - Core | Proposal | 1.0.0-rc.3 | Browseable advertises all Items in a STAC API Catalog can be reached by traversing child and item links. |
 | [Children](https://github.com/stac-api-extensions/children) | STAC API - Core | Proposal | 1.0.0-rc.2 | The purpose of this extension is to add an endpoint that presents a single resource from which clients can retrieve the immediate children of a Catalog. |
 | [Collection Search](https://github.com/stac-api-extensions/collection-search) | STAC API - Core | Candidate | 1.0.0-rc.1 | Collection Search for STAC APIs |
-| [Collection Search Endpoint for Large Payloads](https://github.com/Healy-Hyperspatial/collection-search-large-payloads)* | STAC API - Core | *WIP* | **Unreleased** | This extension defines a dedicated Collection Search Endpoint (/collections-search) that supports both GET and POST methods. |
+| [Collection Search Endpoint for Large Payloads](https://github.com/StacLabs/collection-search-large-payloads)* | STAC API - Core | *Unknown* | 1.0.0-beta.1 | This extension defines a dedicated Collection Search Endpoint (/collections-search) that supports both GET and POST methods. |
 | [Collection Transaction](https://github.com/stac-api-extensions/collection-transaction) | STAC API - Collections | Candidate | 1.0.0-beta.1 | The Collection Transaction Extension supports the creation, editing, and deleting of Collections through POST, PUT, PATCH, and DELETE requests.  |
 | [Context](https://github.com/stac-api-extensions/context) | STAC API - Features, STAC API - Item Search | Deprecated | 1.0.0-rc.2 | Context Extension |
 | [Context Collections](https://github.com/cedadev/stac-context-collections)* | STAC - Core | *WIP* | **Unreleased** | This defines a new parameter, collections inside the context response which is a summary of all the collections which are part of the current result context. |
@@ -54,7 +54,7 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 | [Transaction](https://github.com/stac-api-extensions/transaction) | STAC API - Features | Candidate | 1.0.0-rc.3 |  The Transaction Extension supports the creation, editing, and deleting of items through POST, PUT, PATCH, and DELETE requests. |
 | [Version](https://github.com/stac-api-extensions/version) | STAC API - Features | Deprecated | **Unreleased** | Item and Collection Version Extension |
 
-- **Last updated:** Mar 08 2026, 01:23 UTC
+- **Last updated:** Mar 09 2026, 01:22 UTC
 - **Count:** 19
 
 ### Grouped by maturity
@@ -97,8 +97,6 @@ As such is not part of the stac-api-extensions GitHub organization and may not f
 
 
 #### WIP
-
-- [Collection Search Endpoint for Large Payloads](https://github.com/Healy-Hyperspatial/collection-search-large-payloads)*
 
 - [Context Collections](https://github.com/cedadev/stac-context-collections)*
 
